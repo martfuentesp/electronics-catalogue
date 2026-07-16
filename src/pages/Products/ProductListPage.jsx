@@ -30,7 +30,7 @@ export function ProductListPage() {
     <div className={styles.page}>
       <SectionHeading
         title="Product catalogue"
-        subtitle="Browse our static electronics catalogue—filter by category or search by name."
+        subtitle="Explore our range—filter by category or search for the gear you need."
       />
 
       <ProductFilters value={filters} onChange={onChange} />

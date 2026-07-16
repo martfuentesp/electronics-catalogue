@@ -8,32 +8,32 @@ export function AboutPage() {
     <div className={styles.page}>
       <h1 className={styles.title}>About ElectraMart</h1>
       <p className={styles.lead}>
-        ElectraMart is a static electronics catalogue built to resemble a real production frontend.
-        It uses hardcoded JSON data and focuses on architecture, routing, and reusable components.
+        ElectraMart is a modern electronics store experience—browse laptops, smartphones, gaming gear,
+        monitors, and everyday accessories.
       </p>
 
       <div className={styles.grid}>
         <section className={styles.card}>
-          <div className={styles.cardTitle}>What this project is</div>
+          <div className={styles.cardTitle}>What we offer</div>
           <p className={styles.text}>
-            A React 18 + Vite application with a realistic structure: data modules, services,
-            feature components, page routing, and CSS modules.
+            Curated devices and peripherals with clear specs, availability indicators, and quick
+            navigation by category.
           </p>
         </section>
 
         <section className={styles.card}>
-          <div className={styles.cardTitle}>What this project is not</div>
+          <div className={styles.cardTitle}>Store policies</div>
           <p className={styles.text}>
-            There is no backend, database, checkout, authentication, or payments.
-            Product availability and promotions are purely illustrative.
+            Shipping and returns vary by item and region. For warranty coverage and eligibility,
+            contact our team.
           </p>
         </section>
 
         <section className={styles.card}>
-          <div className={styles.cardTitle}>Banner architecture</div>
+          <div className={styles.cardTitle}>Why shop here</div>
           <p className={styles.text}>
-            Homepage banners are data-driven. The carousel and promotional banners render from
-            <code className={styles.code}>src/data/bannerData.js</code>.
+            New arrivals and seasonal promotions are highlighted on the homepage, with featured picks
+            updated regularly.
           </p>
         </section>
       </div>

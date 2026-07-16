@@ -8,7 +8,7 @@ export function Footer() {
         <div className={styles.brand}>
           <div className={styles.title}>ElectraMart</div>
           <p className={styles.muted}>
-            Static electronics catalogue built as a realistic React frontend project.
+            Premium electronics, clear specs, and fast shipping—shop the latest tech essentials.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export function Footer() {
       <div className={styles.bottom}>
         <div className={styles.innerBottom}>
           <span className={styles.muted}>© {new Date().getFullYear()} ElectraMart</span>
-          <span className={styles.muted}>No checkout • No backend</span>
+          <span className={styles.muted}>Secure checkout • Fast support</span>
         </div>
       </div>
     </footer>

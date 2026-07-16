@@ -22,8 +22,8 @@ export function ContactPage() {
     <div className={styles.page}>
       <h1 className={styles.title}>Contact</h1>
       <p className={styles.lead}>
-        This is a static demo—form submissions are not sent anywhere. Use this page as a realistic
-        placeholder for support or sales inquiries.
+        Need help with an order, warranty, or product recommendation? Send us a message and our team
+        will get back to you within 1–2 business days.
       </p>
 
       <form className={styles.form} onSubmit={onSubmit}>
@@ -56,7 +56,7 @@ export function ContactPage() {
           Send message
         </button>
 
-        {sent ? <div className={styles.sent}>Message saved (demo).</div> : null}
+        {sent ? <div className={styles.sent}>Thanks — your message has been received.</div> : null}
       </form>
     </div>
   )
