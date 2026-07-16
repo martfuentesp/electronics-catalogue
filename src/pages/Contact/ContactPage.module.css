@@ -1,0 +1,79 @@
+.page {
+  padding: 10px 0;
+}
+
+.title {
+  margin: 0 0 10px;
+  letter-spacing: -0.9px;
+}
+
+.lead {
+  margin: 0 0 18px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.55;
+  max-width: 860px;
+}
+
+.form {
+  max-width: 640px;
+  display: grid;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 16px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.9);
+  outline: none;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: rgba(42, 108, 255, 0.6);
+  box-shadow: 0 0 0 3px rgba(42, 108, 255, 0.2);
+}
+
+.button {
+  justify-self: start;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 0;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0b0f1a;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.sent {
+  font-weight: 900;
+  color: rgba(163, 230, 53, 0.95);
+}

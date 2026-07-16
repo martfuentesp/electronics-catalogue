@@ -1,0 +1,66 @@
+.banner {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 140px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15));
+}
+
+.light .overlay {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.22));
+}
+
+.content {
+  position: relative;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.title {
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.35;
+}
+
+.light .subtitle {
+  color: rgba(11, 15, 26, 0.72);
+}
+
+.cta {
+  flex: none;
+  display: inline-flex;
+  padding: 10px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0b0f1a;
+}
+
+.light .cta {
+  background: rgba(11, 15, 26, 0.92);
+  color: rgba(255, 255, 255, 0.96);
+}
+
+@media (max-width: 720px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

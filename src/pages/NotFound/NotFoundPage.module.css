@@ -1,0 +1,42 @@
+.page {
+  padding: 42px 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.code {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: -1.6px;
+  background: linear-gradient(135deg, #2a6cff, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title {
+  margin: 10px 0 8px;
+  letter-spacing: -0.8px;
+}
+
+.subtitle {
+  margin: 0 0 14px;
+  max-width: 520px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.55;
+}
+
+.link {
+  display: inline-flex;
+  padding: 10px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0b0f1a;
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.86);
+}

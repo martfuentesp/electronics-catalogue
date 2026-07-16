@@ -1,0 +1,39 @@
+.section {
+  margin-top: 10px;
+}
+
+.carousel {
+  position: relative;
+  height: 360px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.dotActive {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+@media (max-width: 720px) {
+  .carousel {
+    height: 420px;
+  }
+}

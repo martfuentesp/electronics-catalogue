@@ -1,0 +1,79 @@
+.slide {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-items: end;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transform: scale(1.01);
+  transition: opacity 400ms ease, transform 600ms ease;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      1200px 600px at 20% 70%,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.72)
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.85));
+}
+
+.content {
+  position: relative;
+  padding: 26px;
+  max-width: 620px;
+}
+
+.kicker {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+
+.title {
+  margin: 0 0 10px;
+  font-size: clamp(26px, 4vw, 42px);
+  letter-spacing: -0.8px;
+}
+
+.subtitle {
+  margin: 0 0 16px;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.45;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #0b0f1a;
+  background: #ffffff;
+}
+
+.cta:hover {
+  background: rgba(255, 255, 255, 0.9);
+}

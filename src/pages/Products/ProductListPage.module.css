@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.emptyTitle {
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.emptySubtitle {
+  color: rgba(255, 255, 255, 0.72);
+}
