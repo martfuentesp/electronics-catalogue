@@ -1,4 +1,4 @@
-# ElectraMart (Static Electronics Catalogue)
+# Electro Store (Electronics Catalogue)
 
 A realistic, production-style **React** frontend project that represents a static electronics catalogue website.
 

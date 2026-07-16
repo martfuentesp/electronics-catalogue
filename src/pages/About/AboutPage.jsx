@@ -6,9 +6,9 @@ export function AboutPage() {
 
   return (
     <div className={styles.page}>
-      <h1 className={styles.title}>About ElectraMart</h1>
+      <h1 className={styles.title}>About Electro Store</h1>
       <p className={styles.lead}>
-        ElectraMart is a modern electronics store experience—browse laptops, smartphones, gaming gear,
+        Electro Store is a modern electronics store experience—browse laptops, smartphones, gaming gear,
         monitors, and everyday accessories.
       </p>
 

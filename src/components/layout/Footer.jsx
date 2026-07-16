@@ -6,7 +6,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.brand}>
-          <div className={styles.title}>ElectraMart</div>
+          <div className={styles.title}>Electro Store</div>
           <p className={styles.muted}>
             Premium electronics, clear specs, and fast shipping—shop the latest tech essentials.
           </p>
@@ -42,7 +42,7 @@ export function Footer() {
 
       <div className={styles.bottom}>
         <div className={styles.innerBottom}>
-          <span className={styles.muted}>© {new Date().getFullYear()} ElectraMart</span>
+          <span className={styles.muted}>© {new Date().getFullYear()} Electro Store</span>
           <span className={styles.muted}>Secure checkout • Fast support</span>
         </div>
       </div>
